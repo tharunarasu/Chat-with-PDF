@@ -78,6 +78,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Vallia Chat")
+    st.image('brimmatech_logo.jpg',width=150)
     st.header("Vallia Chat")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
